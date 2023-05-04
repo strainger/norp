@@ -12,14 +12,12 @@ These are the useful parameters
 |                                        | naming and use. For example if you have a tag ##norp##usecase and then many  |
 |                                        | sub-tags like ##norp##usecase##beginning, ##norp##usecase##middle, etc, you  |
 |                                        | will be able to pull call the parent tag and get all of the sub-tags content |
-| -------------------------------------- | ---------------------------------------------------------------------------- |
 | -F=(string)/--field-separator=(string) | The default field separator is ## and can be overwritten by using this       |
 |                                        | parameter. This will replace the default ## before and after the word norp   |
 |                                        | to define a tag. So if your field separator is set to :) then your tags must |
 |                                        | look like :)norp:)(your tag). This was done so that norp can be use in a     |
 |                                        | wider array of usecases, such as programming, note writing, documentation,   |
 |                                        | etc.                                                                         |
-| -------------------------------------- | ---------------------------------------------------------------------------- |
 | (file path)                            | Entering in a file path will allow norp to read that file. There is no need  |
 |                                        | to enter anything before the file name.                                      |
                                
