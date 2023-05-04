@@ -45,7 +45,8 @@ for line in infile.lines:
   if line.startsWith(delim & "norp" & delim & tag):
     tags.add(line.replace(delim & "norp" & delim, ""))
     if found == true:
-      found = false
+      if (delim & "norp" & delim & tag) == line:
+        found = false
     else:
       found = true
   else:
