@@ -1,0 +1,33 @@
+##norp##servers
+# Welcome to norp-corp where we have many servers!
+
+##norp##servers##linux
+## Norp-corp is a proud owner of several fantastic linux servers.
+
+| Server Name | Server Purpose         |
+| ----------- | ---------------------- |
+| lin_cash    | Manages money in/out   |
+| lin_web     | Hosts our main website |
+| lin_repo    | Our main linux repo    |
+| lin_san     | Location for backups   |
+##norp##servers##linux
+
+##norp##servers##unix
+## Norp-corp is a proud owner of several fantastic unix servers.
+
+| Server Name | Server Purpose         |
+| ----------- | ---------------------- |
+| uix_monitor | Main monitoring server |
+| uix_sec     | Security blinky box    |
+| uix_backup  | Backup server app      |
+##norp##servers##unix
+
+##norp##servers##windows
+## Norp-corp is a owner of several windows servers.
+
+| Server Name | Server Purpose         |
+| ----------- | ---------------------- |
+| win_users   | Endpoint for employees |
+| win_mgmt    | Endpoint for higherups |
+##norp##servers##windows
+##norp##servers
