@@ -59,12 +59,33 @@ int main(){
 ##norp##cpp
 ```
 
-## Advanced Example
+## Custom Field Separator Example
 
-To see the tag structure of our advanced file 
+If we have the below file...
+
+```
+--norp--happy
+:)
+--norp--happy
+
+--norp--sad
+:(
+--norp--sad
+```
+
+We can redefine the field separator as -- and norp away.
 
 ```bash
-$ norp advanced_example.txt orp advanced_example.txt
+$ norp custom_field_separator.txt -F="--" -t=happy
+> :)
+```
+
+## Advanced Example
+
+To see the tag structure of our advanced file.
+
+```bash
+$ norp advanced_example.txt
 > servers
 > servers##linux
 > servers##linux
