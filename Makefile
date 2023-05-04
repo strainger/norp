@@ -1,2 +1,2 @@
 all:
-	nim c -o:out norp.nim
+	nim c -o:norp norp.nim
