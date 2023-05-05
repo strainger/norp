@@ -17,8 +17,10 @@ To use norp in its current stage, call the norp command, enter a file path as a 
 
 ## Basic Example
 
+To begin norpin' around, run norp on a file and specify a tag to filter on.
+
 ```bash
-$ norp example.txt --tags=subsection_01
+$ norp example.txt --tag=subsection_01
 > In this example we see a doodle doodle doo doo
 >       _______
 >      /       \
