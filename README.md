@@ -13,11 +13,10 @@ These are the useful parameters
 
                                
 
-To use norp in its current stage, call the norp command, enter a file path as a parameter, then type in your tag you would like to have norp render. Norp will output the text as standard output, which then can be processed further or redirected to a file.
 
 ## Basic Example
 
-To begin norpin' around, run norp on a file and specify a tag to filter on.
+To begin norpin' around, run norp on a file and specify a tag to filter on. Norp will output the text as standard output, which then can be processed further to your hearts content.
 
 ```bash
 $ norp example.txt --tag=subsection_01
